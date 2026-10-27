@@ -20,14 +20,14 @@ import connectors.{DefaultTaxEnrolmentsConnector, TaxEnrolmentsConnector}
 import metrics.ServiceMetrics
 import models.{AtedUsers, Verifier, Verifiers}
 import org.mockito.ArgumentMatchers.any
-import org.mockito.Mockito._
+import org.mockito.Mockito.*
 import org.scalatest.BeforeAndAfterEach
 import org.scalatestplus.mockito.MockitoSugar
 import org.scalatestplus.play.PlaySpec
 import org.scalatestplus.play.guice.GuiceOneServerPerSuite
 import play.api.libs.json.{JsValue, Json}
-import play.api.test.Helpers._
-import uk.gov.hmrc.http._
+import play.api.test.Helpers.*
+import uk.gov.hmrc.http.*
 import uk.gov.hmrc.http.client.HttpClientV2
 import uk.gov.hmrc.play.audit.http.connector.AuditConnector
 import uk.gov.hmrc.play.bootstrap.config.ServicesConfig
